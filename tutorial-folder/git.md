@@ -1,1 +1,1 @@
-# WHAT IS GIT ?
+# What Is Git ?
