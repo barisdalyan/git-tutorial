@@ -314,16 +314,20 @@ To see invisible git file :
   We should pass to master branch before merging branches with the master.
   Then  write this code to terminal : 
   
+  
   - `  git merge [branch name]  `	
+  
   
   
   
     <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_19.png?raw=true" alt="Error"
 	 width="600" />
 	 
-	 
+
+
 
  <br/>
+ 
  
  By the way, we can see differs between master and new branch, through this code :
   - ` git diff master [new branch]  `
