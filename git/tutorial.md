@@ -42,8 +42,12 @@ These may be a problem for you ;
  - Arch Linux --> ` pacman -S git `
  
  
-   <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_1.png?raw=true" alt="Error"
+ 
+ 
+    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_1.png?raw=true" alt="Error"
 	 width="600" />
+	 
+	 
 	 
 
  <br/>
@@ -52,8 +56,11 @@ These may be a problem for you ;
  - ` git --version  `
  
  
-   <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_2.png?raw=true" alt="Error"
+ 
+    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_2.png?raw=true" alt="Error"
 	 width="600" />
+	 
+	 
 	 
 	 
  After installation, we need to configure our Git system.
@@ -67,11 +74,13 @@ These may be a problem for you ;
  git config --global user.email 
  ```  
  
+ 
    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_3.png?raw=true" alt="Error"
 	 width="600" />
 	 
 	 
  <br/>
+
 
 To convert our index (folder) to Git project index :
  - ` git init  `	 
@@ -80,9 +89,11 @@ To see invisible git file :
  - `ls -a` 
  
  
-   <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_4.png?raw=true" alt="Error"
+ 
+    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_4.png?raw=true" alt="Error"
 	 width="600" />
 	 
+
 
  <br/>
 
@@ -108,8 +119,10 @@ To see invisible git file :
  
  
  
-   <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_5.png?raw=true" alt="Error"
+ 
+    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_5.png?raw=true" alt="Error"
 	 width="600" />
+
 
 
  <br/>
@@ -119,8 +132,12 @@ To see invisible git file :
  - `git log `
 
 
+
+
    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_6.png?raw=true" alt="Error"
 	 width="600" />
+	 
+	 
 
 
  <br/>
