@@ -44,7 +44,7 @@ These may be a problem for you ;
  
  
  
-    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_1.png?raw=true" alt="Error"
+  <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_1.png?raw=true" alt="Error"
 	 width="600" />
 	 
 	 
