@@ -53,7 +53,8 @@ These may be a problem for you ;
  <br/>
 
  **Installation control :**
- - ` git --version  `
+ 
+  - ` git --version  `
  
  
  
@@ -86,7 +87,8 @@ To convert our index (folder) to Git project index :
  - ` git init  `	 
 
 To see invisible git file : 
- - `ls -a` 
+ 
+ - ` ls -a ` 
  
  
  
@@ -111,11 +113,11 @@ To see invisible git file :
  
  To add a project files to Git Repository : 
  
- - `git add . or [file name] `
+  - `git add . or [file name] `
 
  Code `add` uses to send our project index to **Staging Area** from **Working Directory**. After that, to send the project to **Local Git Repo**, we need to `commit` it. 
  
- - `git commit -m " description "`
+  - `  git commit -m " description "  `
  
  
  
@@ -129,7 +131,7 @@ To see invisible git file :
  
   To list the versions : 
  
- - `git log `
+  - ` git log `
 
 
 
@@ -252,11 +254,11 @@ To see invisible git file :
   
   To connect with GitHub Repo : 
   
-  - `git remote add [nickname]`  and  `HTTPS address or SSH keyword`
+  - `  git remote add [nickname]  `  and  `  HTTPS address or SSH keyword  `
   
   To push the project :   
   
- - `git push -u` (all files)  `[nickname] master`  After that, enter your GitHub email or nickname and password. That's all ! 
+ - `  git push -u  ` (all files)  `  [nickname] master  `  After that, enter your GitHub email or nickname and password. That's all ! 
  
    
    
@@ -284,7 +286,8 @@ To see invisible git file :
  - Code ` git branch --all ` shows branches that belong to our GitHub Repo.
  
  To list available branches in Git system : 
-  - `git branch`
+ 
+ - `git branch`
  
  > Not : _`git branch -a `  shows branches that belong to our local Git Repository_
  
@@ -297,7 +300,8 @@ To see invisible git file :
  <br/>
  
  To pass among branches, write this code to terminal :
-- `git checkout [branch name]`
+  
+  - `  git checkout [branch name]  `
 
 
 
@@ -310,7 +314,7 @@ To see invisible git file :
   We should pass to master branch before merging branches with the master.
   Then  write this code to terminal : 
   
-  - `git merge [branch name] `	
+  - `  git merge [branch name]  `	
   
   
   
@@ -322,7 +326,7 @@ To see invisible git file :
  <br/>
  
  By the way, we can see differs between master and new branch, through this code :
- - ` git diff master [new branch]  `
+  - ` git diff master [new branch]  `
  
   > **Not:** _Square bracket " [ ] " had used for highlighting to instances._
   
