@@ -58,7 +58,7 @@ These may be a problem for you ;
  
  
  
-    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_2.png?raw=true" alt="Error"
+  <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_2.png?raw=true" alt="Error"
 	 width="600" />
 	 
 	 
@@ -92,7 +92,7 @@ To see invisible git file :
  
  
  
-    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_4.png?raw=true" alt="Error"
+  <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_4.png?raw=true" alt="Error"
 	 width="600" />
 	 
 
@@ -122,7 +122,7 @@ To see invisible git file :
  
  
  
-    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_5.png?raw=true" alt="Error"
+  <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_5.png?raw=true" alt="Error"
 	 width="600" />
 
 
