@@ -41,11 +41,124 @@ These may be a problem for you ;
  - Debian/Ubuntu --> ` apt-get install git `
  - Arch Linux --> ` pacman -S git `
  
+ 
  <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_1.png?raw=true" alt="Error"
-	 width="550" />
+	 width="600" />
+
+ <br/>
+
+ **Installation control :**
+ - ` git --verison  `
  
+  <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_2.png?raw=true" alt="Error"
+	 width="600" />
+	 
+ After installation, we need to configure our Git system.
+  ```
+  git config --global user.name " your name "
+  git config --global user.email " your email address " 
+  ```
+  To checkout this configuration : 
+ ```
+ git config --global user.name 
+ git config --global user.email 
+ ```  
+   <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_3.png?raw=true" alt="Error"
+	 width="600" />
+	 
+ <br/>
+
+To convert our index (folder) to Git project index :
+ - ` git init  `	 
+
+To see invisible git file : 
+ - `ls -a` 
  
- 
+ <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_4.png?raw=true" alt="Error"
+	 width="600" />
+
+ <br/>
+
+---
 
 
 
+ ## Git Flowchart 
+ 
+  <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/gitdiagram4.jpg?raw=true" alt="Error"
+	 width="800" />
+ 
+ <br/>
+ 
+ To add a project files to Git Repository : 
+ 
+ - `git add . or [file name] `
+
+ Code `add` uses to send our project index to **Staging Area** from **Working Directory**. After that, to send the project to **Local Git Repo**, we need to `commit` it. 
+ 
+ - `git commit -m " description "`
+ 
+ 
+ 
+ <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_5.png?raw=true" alt="Error"
+	 width="600" />
+
+ <br/>
+ 
+  To list the versions : 
+ 
+ - `git log `
+
+ <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_6.png?raw=true" alt="Error"
+	 width="600" />
+
+ <br/>
+
+ > _I guess you realized the complicated hash code above, ı will mention about this subject in next title._
+ 
+  To see situation of processes between Working Directory and Staging Area :
+  
+  - ` git status  `
+  
+  <img src=" https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_7.png?raw=true" alt="Error"
+	 width="600" />
+	 
+ <br/>	 
+ 
+  To see differs of changed files that are between Working Directory with Git Repo :
+  
+  - `git diff  [file name]  or . (dot) `
+
+ <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_8.png?raw=true" alt="Error"
+	 width="600" />
+	 
+ <br/>
+ 
+  To see differs of changed files that are between Staging Area with Git Repo :
+ 
+  - `git diff --staged ` 
+  
+  <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_9.png?raw=true" alt="Error"
+	 width="600" />
+ 
+  <br/>
+  
+  Code `git rm [file name]` uses for carrying file to Staging Area that had deleted in Working Directory. You don't have to add deleted file to Staging Area again. Code ` git rm -r [folder(index) name]` deletes index and included files.
+  
+    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_10.png?raw=true" alt="Error"
+	 width="600" />
+	 
+  <br/>
+  
+  Code `git mv [[file1 name] [file2 name] or a index]`  uses for carrying file to Staging Area that had renamed in Working Directory. You don't have to add renamed file to Staging Area again.
+  
+    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_11.png?raw=true" alt="Error"
+	 width="600" />
+	 
+  
+
+  
+  
+	 
+	 
+ 
