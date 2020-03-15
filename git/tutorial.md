@@ -278,7 +278,7 @@ To see invisible git file :
  By the way, we can see differs between master and new branch, through this code :
  - ` git diff master [new branch]  `
  
-  > **Not:** _Square bracket " [] " had used for highlighting to instances._
+  > **Not:** _Square bracket " [ ] " had used for highlighting to instances._
   
 	 
 	 
