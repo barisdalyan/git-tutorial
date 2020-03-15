@@ -262,7 +262,7 @@ To see invisible git file :
  
    
    
-   <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_16.png?raw=true" alt="Error"
+ <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_16.png?raw=true" alt="Error"
 	 width="600" />
 	 
   
