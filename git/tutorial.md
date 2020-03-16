@@ -1,4 +1,4 @@
-**Author:** 
+**Author:**   [barisdalyan](https://github.com/barisdalyan)
 
 ---
 <br/>
@@ -344,7 +344,7 @@ To see invisible git file :
  By the way, we can see differs between master and new branch, through this command :
   - ` git diff master [new branch]  `
  
-  > **Not:** _Square bracket " [ ] " used for highlighting to instances._
+  > **Not:** _Square bracket " [ ] " was used for highlighting to instances._
   
   
   
