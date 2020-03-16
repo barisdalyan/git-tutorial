@@ -1,7 +1,6 @@
 **Author:**   [barisdalyan](https://github.com/barisdalyan)
 
 ---
-<br/>
 
 # What Is Git ?
 
