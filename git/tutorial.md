@@ -1,9 +1,14 @@
+**Author:** 
+
+---
+<br/>
+
 # What Is Git ?
 
 <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/git-logo.png?raw=true" alt="Error"
 	 width="550" />
 
- **Git** is a distributed revision control system that was made to be fast. Git was created by Linus Torvalds for use in developing the Linux kernel in 2005. Each working directory(project) using the Git version control system is a fully authorized _repository_ that includes whole modified files and version control system without central repo or no internet connetion.
+ **Git** is a distributed revision control system that was made to be fast. Git was created by Linus Torvalds for use in developing the Linux kernel in 2005. Each working directory (project) using the Git version control system is a fully authorized _repository_ that includes whole modified files and version control system without central repo or no internet connetion.
 
 Git design was inspired from BitKeeper and Monotone.
 It is free and open source software released under the GNU General Public License version 2 software license.
@@ -13,7 +18,7 @@ It is free and open source software released under the GNU General Public Licens
 
 ## What is version control system ?
  
- **Version Control** is system that can saving and reverting to a specific version the one or more files that had modified. VCS is also referred to as _Revison Control_ and _Source Control_ system.
+ **Version Control** is system that can saving and reverting to a specific version the one or more files that were modified. VCS is also referred to as _Revison Control_ and _Source Control_ system.
  
  You can handle over many issues using  Version Control System. 
  
@@ -111,11 +116,11 @@ To see invisible git file :
  
  <br/>
  
- To add a project files to Git Repository : 
+ To add a project file to Git Repository : 
  
   - `git add . or [file name] `
 
- Code `add` uses to send our project index to **Staging Area** from **Working Directory**. After that, to send the project to **Local Git Repo**, we need to `commit` it. 
+ We use command   `add`   to transfer our project index to **Staging Area** from **Working Directory**. After that, to transfer the project to **Local Git Repo**, we need to `commit` it. 
  
   - `  git commit -m " description "  `
  
@@ -144,7 +149,7 @@ To see invisible git file :
 
  <br/>
 
- > _I guess you realized the complicated hash code above, ı will mention about this subject in next title._
+ > _I guess you realized the complicated hash code above, I will mention about this subject in next title._
  
   To see situation of processes between Working Directory and Staging Area :
   
@@ -179,7 +184,7 @@ To see invisible git file :
  
   <br/>
   
-  Code `git rm [file name]` uses for carrying file to Staging Area that had deleted in Working Directory. You don't have to add deleted file to Staging Area again. Code ` git rm -r [folder(index) name]` deletes index and included files.
+  We use command   `git rm [file name]`   for carrying file, which was deleted in Working Directory, to Staging Area. You don't have to add deleted file to Staging Area again. Command   ` git rm -r [folder(index) name]`   deletes index and included files.
   
   
    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_10.png?raw=true" alt="Error"
@@ -188,7 +193,7 @@ To see invisible git file :
 	 
   <br/>
   
-  Code `git mv [[file1 name] [file2 name] or a index]`  uses for carrying file to Staging Area that had renamed in Working Directory. You don't have to add renamed file to Staging Area again.
+  We use command   `git mv [[file1 name] [file2 name] or a index]`   for carrying file, which was renamed in Working Directory, to Staging Area. You don't have to add renamed file to Staging Area again.
   
   
    <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/img_11.png?raw=true" alt="Error"
@@ -199,7 +204,7 @@ To see invisible git file :
   
   ---
   
-  To revert changes in file that hasn't being added to send to Staging Area. So, to revert in Working Directory :
+  To revert changes in file, which weren't   `added`   to Staging Area, in Working Directory :
   
   - `git checkout -- [file name] `
   
@@ -210,9 +215,9 @@ To see invisible git file :
 	 
  <br/>	 
   
-  To revert changes in file that had being added to Staging Area :  
+  To revert changes in file which were  `added`  to Staging Area, in Working Directory :  
   
-  - `git reset HEAD [file name]  `   but it has not reverted, yet. Write the code above again.
+  - `git reset HEAD [file name]  `    but it has not reverted, yet. Write the code above again.
   
   
   
@@ -232,7 +237,7 @@ To see invisible git file :
   
   İf we want to pass from [version3] to [version2] :
   
-  -  `git checkout version2 [hash code of version] -- . ` (dot) or file name that we want to revert it to version2. 
+  -  `git checkout version2 [hash code of version] -- . `   (dot) or file name that we want to revert it to version2. 
   
   
   
@@ -254,11 +259,18 @@ To see invisible git file :
   
   To connect with GitHub Repo : 
   
-  - `  git remote add [nickname]  `  and  `  HTTPS address or SSH keyword  `
+  - `  git remote add [nickname]  `   and   `  HTTPS address or SSH keyword  `
+  
+  
+   <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/htpps.png?raw=true" alt="Error"
+	 width="600" />
+  
+  
+  
   
   To push the project :   
   
- - `  git push -u  ` (all files)  `  [nickname] master  `  After that, enter your GitHub email or nickname and password. That's all ! 
+ - `  git push -u  `   (all files)   `  [nickname] master  `   After that, enter your GitHub email or nickname and password. That's all ! 
  
    
    
@@ -279,17 +291,17 @@ To see invisible git file :
   
  ## Branches
  
- While you coding a program, seperating the project to branches is a wise way for division of labor. When each coworker had done their part of job, branches are merged by pull-request.
+ While you coding a program, seperating the project to branches is a wise way for division of labor. When each coworker completed their part of job, branches are merged by pull-request.
  
- - Code ` git branch [new branch] ` uses to create new branch.
+ - Command   ` git branch [new branch] `   creates new branch.
  
- - Code ` git branch --all ` shows branches that belong to our GitHub Repo.
+ - Command   ` git branch --all `   shows branches that belong to our GitHub Repo.
  
  To list available branches in Git system : 
  
  - `git branch`
  
- > Not : _`git branch -a `  shows branches that belong to our local Git Repository_
+ > Not : _`git branch -a `   shows branches that belong to our local Git Repository_
  
  
  
@@ -299,7 +311,7 @@ To see invisible git file :
  
  <br/>
  
- To pass among branches, write this code to terminal :
+ To pass among branches, write this command to terminal :
   
   - `  git checkout [branch name]  `
 
@@ -312,7 +324,7 @@ To see invisible git file :
  <br/>
  
   We should pass to master branch before merging branches with the master.
-  Then  write this code to terminal : 
+  Then  write this command to terminal : 
   
   
   - `  git merge [branch name]  `	
@@ -329,10 +341,12 @@ To see invisible git file :
  <br/>
  
  
- By the way, we can see differs between master and new branch, through this code :
+ By the way, we can see differs between master and new branch, through this command :
   - ` git diff master [new branch]  `
  
-  > **Not:** _Square bracket " [ ] " had used for highlighting to instances._
+  > **Not:** _Square bracket " [ ] " used for highlighting to instances._
+  
+  
   
 	 
 	 
