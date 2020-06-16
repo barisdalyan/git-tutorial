@@ -54,7 +54,7 @@ These may be a problem for you ;
 	 
 	 
 
- <br/>
+ <br>
 
  **Installation control :**
  
@@ -84,7 +84,7 @@ These may be a problem for you ;
 	 width="600" />
 	 
 	 
- <br/>
+ <br>
 
 
 To convert our index (folder) to Git project index :
@@ -101,7 +101,7 @@ To see invisible git file :
 	 
 
 
- <br/>
+ <br>
 
 
 
@@ -113,7 +113,7 @@ To see invisible git file :
 	 width="800" />
 	 
  
- <br/>
+ <br>
  
  To add a project file to Git Repository : 
  
@@ -131,7 +131,7 @@ To see invisible git file :
 
 
 
- <br/>
+ <br>
  
   To list the versions : 
  
@@ -146,7 +146,7 @@ To see invisible git file :
 	 
 
 
- <br/>
+ <br>
 
  > _I guess you realized the complicated hash code above, I will mention about this subject in next title._
  
@@ -159,7 +159,7 @@ To see invisible git file :
 	 width="600" />
 	 
 	 
- <br/>	 
+ <br>	 
  
   To see differs of changed files that are between Working Directory with Git Repo :
   
@@ -170,7 +170,7 @@ To see invisible git file :
 	 width="600" />
 	 
 	 
- <br/>
+ <br>
  
   To see differs of changed files that are between Staging Area with Git Repo :
  
@@ -181,7 +181,7 @@ To see invisible git file :
 	 width="600" />
  
  
-  <br/>
+  <br>
   
   We use command   `git rm [file name]`   for carrying file, which was deleted in Working Directory, to Staging Area. You don't have to add deleted file to Staging Area again. Command   ` git rm -r [folder(index) name]`   deletes index and included files.
   
@@ -190,7 +190,7 @@ To see invisible git file :
 	 width="600" />
 	 
 	 
-  <br/>
+  <br>
   
   We use command   `git mv [[file1 name] [file2 name] or a index]`   for carrying file, which was renamed in Working Directory, to Staging Area. You don't have to add renamed file to Staging Area again.
   
@@ -199,7 +199,7 @@ To see invisible git file :
 	 width="600" />
 	 
 	 
-  <br/>
+  <br>
   
   ---
   
@@ -212,7 +212,7 @@ To see invisible git file :
 	 width="600" />
 	 
 	 
- <br/>	 
+ <br>	 
   
   To revert changes in file which were  `added`  to Staging Area, in Working Directory :  
   
@@ -225,7 +225,7 @@ To see invisible git file :
   
   
   
-  <br/>
+  <br>
   
   
   ## Changing Versions Between Each Other
@@ -249,7 +249,7 @@ To see invisible git file :
 	 
   
   
-  <br/>
+  <br>
   
   
   
@@ -277,7 +277,7 @@ To see invisible git file :
 	 width="600" />
 	 
   
-  <br/>
+  <br>
   
    To pull files from GitHub to your project index (folder) :
    
@@ -285,7 +285,7 @@ To see invisible git file :
   
   >  **Annotation :** _Git software must be integrated with your GitHub Repo._
   
-  <br/>
+  <br>
   
   
  ## Branches
@@ -308,7 +308,7 @@ To see invisible git file :
 	 width="600" />
 	 
  
- <br/>
+ <br>
  
  To pass among branches, write this command to terminal :
   
@@ -320,7 +320,7 @@ To see invisible git file :
 	 width="600" />
 	
 	
- <br/>
+ <br>
  
   We should pass to master branch before merging branches with the master.
   Then  write this command to terminal : 
@@ -337,7 +337,7 @@ To see invisible git file :
 
 
 
- <br/>
+ <br>
  
  
  By the way, we can see differs between master and new branch, through this command :
