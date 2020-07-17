@@ -7,7 +7,7 @@
 <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/git-logo.png?raw=true" alt="Error"
 	 width="550" />
 
- **Git** is a distributed revision control system that was made to be fast. Git was created by Linus Torvalds for use in developing the Linux kernel in 2005. Each working directory (project) using the Git version control system is a fully authorized _repository_ that includes whole modified files and version control system without central repo or no internet connetion.
+ **Git** is a distributed revision control system that was made to be fast. Git was created by Linus Torvalds for using in developing the Linux kernel in 2005. Each working directory (project) using the Git version control system is a fully authorized _repository_ that includes whole modified files and version control system without central repo or no internet connetion.
 
 Git design was inspired from BitKeeper and Monotone.
 It is free and open source software released under the GNU General Public License version 2 software license.
@@ -31,7 +31,7 @@ These may be a problem for you ;
 ---
 
 ## Installation Git To Your System
-> **Not:** _I'm going to tell mainly how to you use Git for Linux Operating System in this tutorial._
+> **Not:** _I'm going to tell mainly how to you use Git for GNU/Linux Operating System in this tutorial._
 
 - You can reach Git site from [here.](https://git-scm.com/downloads)
 
