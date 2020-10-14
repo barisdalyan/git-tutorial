@@ -17,7 +17,7 @@ It is free and open source software released under the GNU General Public Licens
 
 ## What is version control system ?
  
- **Version Control** is system that can saving and reverting to a specific version the one or more files that were modified. VCS is also referred to as _Revison Control_ and _Source Control_ system.
+ **Version Control** is system that can saving and reverting to a specific version the one or more files that were modified. VCS is also referred to as _Revision Control_ and _Source Control_ system.
  
  You can handle over many issues using  Version Control System. 
  
