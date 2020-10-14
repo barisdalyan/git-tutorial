@@ -148,7 +148,7 @@ To see invisible git file :
 
  <br>
 
- > _I guess you noticed the complicated hash code above, I will mention about this subject in next title._
+ > _I guess the complicated hash code caught your attention, I will mention about this subject in next title._
  
   To see situation of processes between Working Directory and Staging Area :
   
