@@ -7,7 +7,7 @@
 <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/git-logo.png?raw=true" alt="Error"
 	 width="550" />
 
- **Git** is a distributed revision control system that was made to be fast. Git was created by Linus Torvalds for using in developing the Linux kernel in 2005. Each working directory (project) using the Git version control system is a fully authorized _repository_ that includes whole modified files and version control system without central repo or no internet connetion.
+ **Git** is a distributed version control system that was made to be fast. Git was created by Linus Torvalds for using in developing the Linux kernel in 2005. Each working directory (project) using the Git version control system is a fully authorized _repository_ that includes whole modified files and version control system without central repo or no internet connetion.
 
 Git design was inspired from BitKeeper and Monotone.
 It is free and open source software released under the GNU General Public License version 2 software license.
@@ -17,16 +17,15 @@ It is free and open source software released under the GNU General Public Licens
 
 ## What is version control system ?
  
- **Version Control** is system that can saving and reverting to a specific version the one or more files that were modified. VCS is also referred to as _Revision Control_ and _Source Control_ system.
+ **Version Control** is system that can save and revert modified files to a specific version. VCS is also referred to as _Revision Control_ and _Source Control_ system.
  
- You can handle over many issues using  Version Control System. 
+ You can handle over many issues using Version Control System. 
  
 These may be a problem for you ;
-- Adding files in wrong index.
+- Adding files into wrong index.
 - Making a irrevocable writing mistake.
 - Deleting files.
-- You may want to know who made these mistakes. 
-- And when was caused these mistakes. 
+- You may want to know who made these mistakes and when did it happen.  
 
 ---
 
