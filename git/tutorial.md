@@ -23,7 +23,7 @@ It is free and open source software released under the GNU General Public Licens
  
 These may be a problem for you ;
 - Adding files into wrong index.
-- Making a irrevocable writing mistake.
+- Making an irrevocable writing mistake.
 - Deleting files.
 - You may want to know who made these mistakes and when did it happen.  
 
