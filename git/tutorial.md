@@ -215,7 +215,7 @@ To see invisible git file :
   
   To revert changes in file which were  `added`  to Staging Area, in Working Directory :  
   
-  - `git reset HEAD [file name]  `    but it has not reverted, yet. Write the code above again.
+  - `git reset HEAD [file name]  `    but it wasn't reverted, yet. Write the code above again.
   
   
   
