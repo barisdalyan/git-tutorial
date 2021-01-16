@@ -118,7 +118,7 @@ To see invisible git file :
  
   - `git add . or [file name] `
 
- We use command   `add`   to transfer our project index to **Staging Area** from **Working Directory**. After that, to transfer the project to **Local Git Repo**, we need to `commit` it. 
+ We use command   `add`   to transfer our project index from **Working Directory** to **Staging Area**. After that, to transfer the project to **Local Git Repo**, we need to `commit` it. 
  
   - `  git commit -m " description "  `
  
