@@ -233,7 +233,7 @@ To see invisible git file :
   { version1 } -->{ version2 } -->{ version3 }
   ```
   
-  İf we want to pass from [version3] to [version2] :
+  If we want to pass from [version3] to [version2] :
   
   -  `git checkout version2 [hash code of version] -- . `   (dot) or file name that we want to revert it to version2. 
   
