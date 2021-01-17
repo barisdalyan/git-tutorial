@@ -2,7 +2,7 @@
 
 ---
 
-# What Is Git ?
+# What Is Git?
 
 <img src="https://github.com/barisdalyan/git-tutorial/blob/master/git/img/git-logo.png?raw=true" alt="Error"
 	 width="550" />
@@ -15,7 +15,7 @@ It is free and open source software released under the GNU General Public Licens
 ---
 
 
-## What is version control system ?
+## What is version control system?
  
  **Version Control** is system that can save and revert modified files to a specific version. VCS is also referred to as _Revision Control_ and _Source Control_ system.
  
@@ -253,7 +253,7 @@ To see invisible git file :
   
   
   
-  ## How We Push Our Project to GitHub ?
+  ## How We Push Our Project to GitHub?
   
   To connect with GitHub Repo : 
   
